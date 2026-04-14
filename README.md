@@ -40,7 +40,9 @@ For each model, I identified:
 
 ## Interesting Finding (Extra Credit)
 
-[Add a brief sentence about something non-obvious you discovered, e.g., a weak correlation, a surprising predictor, or a pattern across subgroups.]
+AdaBoosting model is the best model to predict Diabetes Status. It has the highest ROC value (0.822). Random forest, which also uses an ensemble as its core, has a very similar ROC value, proving that ensembles have the ability to learn initially weak learners to strong learners. Logistic regression ROC is also relatively high. 
+
+Zodiac sign is included as a predictor (column 22), and across all 5 models it showed an AUC drop of ~0.000, confirming it has absolutely zero predictive value for diabetes — which is exactly what you'd expect scientifically. This serves as a built-in sanity check: if any model had assigned importance to Zodiac, it would be a red flag for overfitting or data leakage. The fact that all models correctly ignored it validates that the permutation importance method is working properly and the models are learning genuine signal rather than noise.
 
 ## How to Run
 
