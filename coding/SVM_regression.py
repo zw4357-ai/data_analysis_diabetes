@@ -49,6 +49,7 @@ plt.barh(importance.index[::-1], importance.values[::-1], color=colors)
 plt.title('SVM – Feature Importance (AUC Drop)')
 plt.xlabel('AUC Drop')
 plt.tight_layout()
-plt.show()
 
-plt.savefig('graph_output/SVM_regression.png', dpi=300, bbox_inches='tight')
+plt.savefig('graph output: feature importance/SVM_regression.png', dpi=300, bbox_inches='tight')
+
+plt.show()
