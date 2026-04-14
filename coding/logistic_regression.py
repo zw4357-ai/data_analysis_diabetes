@@ -45,7 +45,9 @@ plt.barh(importance.index[::-1], importance.values[::-1], color=colors)
 plt.title('Logistic Regression - Feature Importance (AUC Drop)')
 plt.xlabel('AUC Drop')
 plt.tight_layout()
-plt.show()
 
 plt.savefig('graph output: feature importance/logistic_regression.png', dpi=300, bbox_inches='tight')
+plt.show()
+
+
 print(f"\nBest predictor: {importance.idxmax()}")
