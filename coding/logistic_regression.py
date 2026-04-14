@@ -47,5 +47,5 @@ plt.xlabel('AUC Drop')
 plt.tight_layout()
 plt.show()
 
-plt.savefig('graph_output/logistic_regression.png', dpi=300, bbox_inches='tight')
+plt.savefig('graph output: feature importance/logistic_regression.png', dpi=300, bbox_inches='tight')
 print(f"\nBest predictor: {importance.idxmax()}")
