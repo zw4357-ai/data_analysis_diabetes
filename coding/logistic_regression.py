@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 np.random.seed(13798600)
 
-df = pd.read_csv('diabetes.csv')
+df = pd.read_csv('data/diabetes.csv')
 X = df.drop('Diabetes', axis=1)
 y = df['Diabetes']
 
@@ -51,4 +51,5 @@ plt.xlabel('AUC Drop')
 plt.tight_layout()
 plt.show()
 
+plt.savefig('graph_output/logistic_regression_feature_importance.png', dpi=300, bbox_inches='tight')
 print(f"\nBest predictor: {importance.idxmax()}")
