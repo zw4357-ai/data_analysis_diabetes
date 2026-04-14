@@ -48,5 +48,5 @@ plt.title('Decision Tree – Feature Importance (AUC Drop)')
 plt.xlabel('AUC Drop')
 plt.tight_layout()
 
-plt.savefig('feature importance png graph/decision_tree.png', dpi=300, bbox_inches='tight') 
+plt.savefig('graph output: feature importance/decision_tree.png', dpi=300, bbox_inches='tight') 
 plt.show()
