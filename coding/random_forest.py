@@ -49,4 +49,4 @@ plt.xlabel('AUC Drop')
 plt.tight_layout()
 plt.show()
  
-plt.savefig('graph_output/random_forest_feature_importance.png', dpi=300, bbox_inches='tight')
+plt.savefig('graph_output/random_forest.png', dpi=300, bbox_inches='tight')

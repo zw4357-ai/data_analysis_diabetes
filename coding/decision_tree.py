@@ -78,4 +78,4 @@ plt.xlabel('AUC Drop')
 plt.tight_layout()
 plt.show()
 
-plt.savefig('graph_output/decision_tree_feature_importance.png', dpi=300, bbox_inches='tight')
+plt.savefig('graph_output/decision_tree.png', dpi=300, bbox_inches='tight')

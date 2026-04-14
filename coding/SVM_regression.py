@@ -51,4 +51,4 @@ plt.xlabel('AUC Drop')
 plt.tight_layout()
 plt.show()
 
-plt.savefig('graph_output/SVM_regression_feature_importance.png', dpi=300, bbox_inches='tight')
+plt.savefig('graph_output/SVM_regression.png', dpi=300, bbox_inches='tight')
