@@ -34,9 +34,9 @@ For each model, I identified:
 
 ## Results Summary
 
-- **Best predictor** varied across models, with [GenerelHealth] consistently ranking high.
-- **AUC scores** ranged from [X] to [Y], with Random Forest / AdaBoost achieving the highest performance.
-- **Overall best model** for this dataset: AdaBoosting, based on AUC and interpretability.
+- **Best predictor** varied across models, with **GenerelHealth** consistently ranking high.
+- **AUC scores** ranged from 0.598 to 0.820, with Random Forest / AdaBoost achieving the highest performance.
+- **Overall best model** for this dataset: **AdaBoosting**, based on AUC and interpretability.
 
 ## Interesting Finding
 
