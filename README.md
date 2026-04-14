@@ -34,11 +34,11 @@ For each model, I identified:
 
 ## Results Summary
 
-- **Best predictor** varied across models, with [e.g., glucose level / BMI / age] consistently ranking high.
+- **Best predictor** varied across models, with [GenerelHealth] consistently ranking high.
 - **AUC scores** ranged from [X] to [Y], with Random Forest / AdaBoost achieving the highest performance.
-- **Overall best model** for this dataset: [model name], based on AUC and interpretability.
+- **Overall best model** for this dataset: AdaBoosting, based on AUC and interpretability.
 
-## Interesting Finding (Extra Credit)
+## Interesting Finding
 
 AdaBoosting model is the best model to predict Diabetes Status. It has the highest ROC value (0.822). Random forest, which also uses an ensemble as its core, has a very similar ROC value, proving that ensembles have the ability to learn initially weak learners to strong learners. Logistic regression ROC is also relatively high. 
 
