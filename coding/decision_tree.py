@@ -76,6 +76,7 @@ plt.barh(importance.index[::-1], importance.values[::-1], color=colors)
 plt.title('Random Forest – Feature Importance (AUC Drop)')
 plt.xlabel('AUC Drop')
 plt.tight_layout()
-plt.show()
 
-plt.savefig('graph_output/decision_tree.png', dpi=300, bbox_inches='tight')
+plt.savefig('feature importance png graph/decision_tree.png', dpi=300, bbox_inches='tight')
+
+plt.show()
